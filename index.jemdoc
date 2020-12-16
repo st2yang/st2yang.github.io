@@ -1,0 +1,73 @@
+# jemdoc: {index.html}
+# jemdoc: nofooter
+# jemdoc: title{Yang Yang}
+# analytics {UA-109554412-2}
+
+~~~
+{}{img_left}{assets/images/portrait.jpeg}{Photo}{200px}{200px}{}
+{{
+    <h3>Yang Yang</h3>
+}}
+Ph.D. Candidate \n
+Department of Computer Science & Engineering \n
+University of Minnesota, Twin Cities \n
+
+Email: [mailto:yang5276@umn.edu yang5276 \[at\] umn.edu]
+{{
+<p>
+    <a href="https://scholar.google.com/citations?user=xeR2744AAAAJ&hl=en"> <img src="assets/icon/google-scholar.png" height="40px"></a>
+    <a href="https://github.com/st2yang"> <img src="assets/icon/github.png" height="40px"></a>
+    <a href="https://www.linkedin.com/in/yang-yang-92b882133/"> <img src="assets/icon/linkedin.png" height="40px"></a>
+</p>
+}}
+{{</center>}}
+~~~
+
+== Yang About me \{[assets/files/cv.pdf CV]\}
+I am a Ph.D. Candidate in Computer Science at the [https://twin-cities.umn.edu/ University of Minnesota] (UMN), advised by [http://people.ece.umn.edu/~cchoi/ Prof. Changhyun Choi]. 
+I am a member of [http://choice.umn.edu/ Choice Robotics Lab].
+Before graduate school, I received my bachelor's degree from [http://english.hust.edu.cn/ Huazhong University of Science and Technology] (HUST).
+
+My research interests lie in robotics, computer vision, and machine learning. In particular, I am interested in intelligent robots that connect human users and the real-world environment.
+
+== Publications \{[https://scholar.google.com/citations?user=xeR2744AAAAJ&hl=en Google Scholar]\}
+- *Attribute-Based Robotic Grasping with One-Grasp Adaptation* \n
+   *Yang Yang*, Yuanhao Liu, Hengyue Liang, Xibai Lou, Changhyun Choi\n
+   /Under review/ \n
+   \[[https://sites.google.com/umn.edu/attributes-grasping Website]\]
+- [https://arxiv.org/abs/1909.04840 *A Deep Learning Approach to Grasping the Invisible*] \n
+   *Yang Yang*, Hengyue Liang, Changhyun Choi\n
+   /IEEE Robotics and Automation Letters/ (RA-L), 2020 \n
+   \[[https://arxiv.org/abs/1909.04840 arXiv]\]\[[https://sites.google.com/umn.edu/grasping-invisible Website]\]\[[https://github.com/choicelab/grasping-invisible Code]\]\[[https://youtu.be/_jssCcP_oKg Video]\]
+- [https://arxiv.org/abs/1910.06404 *Learning to Generate 6-DoF Grasp Poses with Reachability Awareness*] \n
+   Xibai Lou, *Yang Yang*, Changhyun Choi \n
+   /IEEE International Conference on Robotics and Automation/ (ICRA), 2020 \n
+   \[[https://arxiv.org/abs/1910.06404 arXiv]\]\[[https://sites.google.com/umn.edu/reachability-aware-grasping Website]\]\[[https://youtu.be/E4Az6OacHt4 Video]\]
+- [http://mars.cs.umn.edu/papers/ISRR19_0045_FI.pdf *Attitude Tracking from a Camera and an Accelerometer on Gyro-less Devices*] \n
+   Tien Do, Leo Neira, *Yang Yang*, Stergios I. Roumeliotis \n
+   /International Symposium on Robotics Research/ (ISRR), 2019 \n
+   \[[http://mars.cs.umn.edu/papers/ISRR19_0045_FI.pdf PDF]\]
+
+== Professional Experience
+- Computer Vision Group, Mitsubishi Electric Research Laboratories, USA | 2020 (May - Aug.) \n
+   Research Intern
+- Google Daydream, USA | 2018 (Jul. - Aug.) \n
+   Visual-Inertial System Engineer
+
+== Professional Service
+: {Conference Reviewer:}
+    IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) | 2020 \n
+    IEEE International Conference on Robotics and Automation (ICRA) | 2020, 2021 \n
+: {Journal Reviewer:}
+    IEEE Robotics and Automation Letters (RA-L) | 2020 \n
+
+== Honors & Awards
+- UMII-MnDRIVE Graduate Fellowship, UMN | 2020
+- Departmental Fellowship, UMN | 2016
+- Outstanding Graduate Award, HUST | 2015
+- Pacemaker to Merit Student Finalist (university-wide highest honor), HUST | 2014
+- National Scholarship, Ministry of Education of P.R. China | 2012 - 2014
+
+== Teaching
+- Teaching Assistant, [https://www-users.cs.umn.edu/~hspark/csci5561_F2020/csci5561.html Computer Vision], UMN | Fall 2020
+- Teaching Assistant, Program Design and Development, UMN | Spring 2018
