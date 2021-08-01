@@ -23,26 +23,32 @@ Email: [mailto:yang5276@umn.edu yang5276 \[at\] umn.edu]
 {{</center>}}
 ~~~
 
-== Yang About me \{[assets/files/cv.pdf CV]\}
+== About me \{[assets/files/cv.pdf CV]\}
 I am a Ph.D. Candidate in Computer Science at the [https://twin-cities.umn.edu/ University of Minnesota] (UMN), advised by [http://people.ece.umn.edu/~cchoi/ Prof. Changhyun Choi]. 
 I am a member of [http://choice.umn.edu/ Choice Robotics Lab].
-Before graduate school, I received my bachelor's degree from [http://english.hust.edu.cn/ Huazhong University of Science and Technology] (HUST).
-
-My research interests lie in robotics, computer vision, and machine learning. In particular, I am interested in intelligent robots that connect human users and the real-world environment.
+Before graduate school, I received my bachelor's degree from [http://english.hust.edu.cn/ Huazhong University of Science and Technology] (HUST). My current research interests lie in robot learning, computer vision, and machine learning. I am particularly interested in how to improve target-driven robotic manipulation by visual attribute reaonsing.
 
 == Publications \{[https://scholar.google.com/citations?user=xeR2744AAAAJ&hl=en Google Scholar]\}
-- *Attribute-Based Robotic Grasping with One-Grasp Adaptation* \n
+- [https://arxiv.org/abs/2104.02271 *Attribute-Based Robotic Grasping with One-Grasp Adaptation*] \n
    *Yang Yang*, Yuanhao Liu, Hengyue Liang, Xibai Lou, Changhyun Choi\n
-   /Under review/ \n
-   \[[https://sites.google.com/umn.edu/attributes-grasping Website]\]
+   /IEEE International Conference on Robotics and Automation/ (ICRA), 2021 \n
+   \[[https://arxiv.org/pdf/2104.02271.pdf PDF]\]\[[https://sites.google.com/umn.edu/attributes-grasping Website]\]
+- [https://arxiv.org/abs/2104.00776 *Collision-Aware Target-Driven Object Grasping in Constrained Environments*] \n
+   Xibai Lou, *Yang Yang*, Changhyun Choi \n
+   /IEEE International Conference on Robotics and Automation/ (ICRA), 2021 \n
+   \[[https://arxiv.org/pdf/2104.00776.pdf PDF]\]\[[https://youtu.be/QLTM6UkZ-Dw Video]\]
+- [https://arxiv.org/abs/1910.03781 *Learning Visual Affordances with Target-Orientated Deep Q-Network to Grasp Objects by Harnessing Environmental Fixtures*] \n
+   Hengyue Liang, Xibai Lou, *Yang Yang*, Changhyun Choi \n
+   /IEEE International Conference on Robotics and Automation/ (ICRA), 2021 \n
+   \[[https://arxiv.org/pdf/1910.03781.pdf PDF]\]\[[https://sites.google.com/umn.edu/ki-dqn/ Website]\]\[[https://youtu.be/XzIyhoOr9zs Video]\]
 - [https://arxiv.org/abs/1909.04840 *A Deep Learning Approach to Grasping the Invisible*] \n
    *Yang Yang*, Hengyue Liang, Changhyun Choi\n
    /IEEE Robotics and Automation Letters/ (RA-L), 2020 \n
-   \[[https://arxiv.org/abs/1909.04840 arXiv]\]\[[https://sites.google.com/umn.edu/grasping-invisible Website]\]\[[https://github.com/choicelab/grasping-invisible Code]\]\[[https://youtu.be/_jssCcP_oKg Video]\]
+   \[[https://arxiv.org/pdf/1909.04840.pdf PDF]\]\[[https://sites.google.com/umn.edu/grasping-invisible Website]\]\[[https://github.com/choicelab/grasping-invisible Code]\]\[[https://youtu.be/_jssCcP_oKg Video]\]
 - [https://arxiv.org/abs/1910.06404 *Learning to Generate 6-DoF Grasp Poses with Reachability Awareness*] \n
    Xibai Lou, *Yang Yang*, Changhyun Choi \n
    /IEEE International Conference on Robotics and Automation/ (ICRA), 2020 \n
-   \[[https://arxiv.org/abs/1910.06404 arXiv]\]\[[https://sites.google.com/umn.edu/reachability-aware-grasping Website]\]\[[https://youtu.be/E4Az6OacHt4 Video]\]
+   \[[https://arxiv.org/pdf/1910.06404.pdf PDF]\]\[[https://sites.google.com/umn.edu/reachability-aware-grasping Website]\]\[[https://youtu.be/E4Az6OacHt4 Video]\]
 - [http://mars.cs.umn.edu/papers/ISRR19_0045_FI.pdf *Attitude Tracking from a Camera and an Accelerometer on Gyro-less Devices*] \n
    Tien Do, Leo Neira, *Yang Yang*, Stergios I. Roumeliotis \n
    /International Symposium on Robotics Research/ (ISRR), 2019 \n
@@ -54,7 +60,7 @@ My research interests lie in robotics, computer vision, and machine learning. In
 - Google Daydream, USA | 2018 (Jul. - Aug.) \n
    Visual-Inertial System Engineer
 
-== Professional Service
+== Professional Services
 : {Conference Reviewer:}
     IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) | 2020 \n
     IEEE International Conference on Robotics and Automation (ICRA) | 2020, 2021 \n
@@ -66,8 +72,9 @@ My research interests lie in robotics, computer vision, and machine learning. In
 - Departmental Fellowship, UMN | 2016
 - Outstanding Graduate Award, HUST | 2015
 - Pacemaker to Merit Student Finalist (university-wide highest honor), HUST | 2014
+- Merit Student Scholarship, HUST | 2012 - 2014
 - National Scholarship, Ministry of Education of P.R. China | 2012 - 2014
 
 == Teaching
 - Teaching Assistant, [https://www-users.cs.umn.edu/~hspark/csci5561_F2020/csci5561.html Computer Vision], UMN | Fall 2020
-- Teaching Assistant, Program Design and Development, UMN | Spring 2018
+- Teaching Assistant, Program Design and Development (C\+\+), UMN | Spring 2018
