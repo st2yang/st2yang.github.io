@@ -9,10 +9,10 @@ table#tlayout {
 body {
 	background: white;
 	font-family: Georgia, serif;
-	padding-bottom: 8px;
-	padding-top: 1.0em;
-	padding-left: 12.0em;
-	padding-right: 12.0em;
+	padding-bottom: 2.0em;
+	padding-top: 2.0em;
+	padding-left: 5.0em;
+	padding-right: 5.0em;
 	margin: 0;
 }
 
