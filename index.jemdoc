@@ -8,7 +8,7 @@
 {{
     <h3>Yang Yang</h3>
 }}
-Ph.D. Candidate \n
+Ph.D. {{<strike>Candidate</strike>}} \n
 Department of Computer Science & Engineering \n
 University of Minnesota, Twin Cities \n
 
@@ -24,9 +24,9 @@ Email: [mailto:yang5276@umn.edu yang5276 \[at\] umn.edu]
 ~~~
 
 == About me \{[assets/files/resume.pdf Resume], [assets/files/cv.pdf CV]\}
-I am a final-year Ph.D. Candidate in Computer Science at the [https://twin-cities.umn.edu/ University of Minnesota] (UMN), advised by [http://people.ece.umn.edu/~cchoi/ Prof. Changhyun Choi]. 
-I received my bachelor's degree from [http://english.hust.edu.cn/ Huazhong University of Science and Technology] (HUST). 
-My research interests are in the areas of robot learning, computer vision, and machine learning. I am particularly interested in how to improve target-driven robotic manipulation by visual attribute reasoning.\n
+I got my Ph.D. in Computer Science from the [https://twin-cities.umn.edu/ University of Minnesota] (UMN), where I was fortunate to be advised by [http://people.ece.umn.edu/~cchoi/ Prof. Changhyun Choi]. 
+I got my bachelor's degree from [http://english.hust.edu.cn/ Huazhong University of Science and Technology] (HUST). 
+My research interests are in the areas of Robotics and Machine Learning.\n
 
 == Publications \{[https://scholar.google.com/citations?user=xeR2744AAAAJ&hl=en Google Scholar]\}
 - [https://arxiv.org/abs/2203.08037 *Interactive Robotic Grasping with Attribute-Guided Disambiguation*] \n
