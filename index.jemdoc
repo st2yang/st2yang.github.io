@@ -25,10 +25,10 @@ Email: [mailto:yang5276@umn.edu yang5276 \[at\] umn.edu]
 I am a Research Scientist at Meta AI. I obtained my Ph.D. in Computer Science from the [https://twin-cities.umn.edu/ University of Minnesota] (UMN), advised by [http://people.ece.umn.edu/~cchoi/ Prof. Changhyun Choi]. My Ph.D. research is in the areas of Robotics and Machine Learning.\n
 
 == Publications \{[https://scholar.google.com/citations?user=xeR2744AAAAJ&hl=en Google Scholar]\}
-- [https://sites.google.com/umn.edu/attributes-grasping *Attribute-Based Robotic Grasping with Data-Efficient Adaptation*] \n
+- [https://ieeexplore.ieee.org/document/10398505 *Attribute-Based Robotic Grasping with Data-Efficient Adaptation*] \n
    *Yang Yang\**, Houjian Yu\*, Xibai Lou, Yuanhao Liu, Changhyun Choi\n
    /IEEE Transactions on Robotics/ (T-RO), 2024 \n
-   \[[https://sites.google.com/umn.edu/attributes-grasping Website]\]\[[https://youtu.be/f0mfaCy64k0 Video]\]
+   \[[https://ieeexplore.ieee.org/document/10398505 PDF]\]\[[https://sites.google.com/umn.edu/attributes-grasping Website]\]\[[https://youtu.be/f0mfaCy64k0 Video]\]
 - [https://ieeexplore.ieee.org/document/10342412 *Adversarial Object Rearrangement in Constrained Environments with Heterogeneous Graph Neural Networks*] \n
    Xibai Lou, Houjian Yu, Ross Worobel, *Yang Yang*, Changhyun Choi\n
    /IEEE\/RSJ International Conference on Intelligent Robots and Systems/ (IROS), 2023 \n
