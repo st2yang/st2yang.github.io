@@ -25,22 +25,22 @@
 ~~~
 
 == About me
-I am a Research Scientist at Meta. I received my Ph.D. in Computer Science from the University of Minnesota, with a research focus on robotics and machine learning. My current interests include LLMs, AI agents, especially their applications in recommender systems.
+I am a Research Scientist at Meta. I received my Ph.D. in Computer Science from the University of Minnesota, with a research focus on robotics and machine learning. My current interests include LLMs, AI agents, especially their applications in large-scale recommendation systems.
 
 == Publications {[https://scholar.google.com/citations?user=xGtHuNMAAAAJ&hl=en Google Scholar]}
 
 === LLMs & AI Agents
-- [https://arxiv.org/pdf/2510.16996 *STARK: Strategic Team of Agents for Refining Kernels*] \[[https://arxiv.org/pdf/2510.16996 PDF]\] \n
-   Under Review (2025) \n
+- [https://openreview.net/forum?id=nWaZTH1JMx *STARK: Strategic Team of Agents for Refining Kernels*] \[[https://arxiv.org/pdf/2510.16996 PDF]\] \n
+   International Conference on Learning Representations (ICLR), 2026 \n
 
 - [https://arxiv.org/pdf/2511.03985 *ArchPilot: A Proxy-Guided Multi-Agent Approach for Machine Learning Engineering*] \[[https://arxiv.org/pdf/2511.03985 PDF]\] \n
-   Under Review (2025) \n
+   Under Review, 2026 \n
 
 - [https://openreview.net/pdf?id=ZVN1DCVOIg *GraphQ-LM: Scalable Graph Representation for Large Language Models via Residual Vector Quantization*] \[[https://openreview.net/pdf?id=ZVN1DCVOIg PDF]\] \n
-   Under Review (2025) \n
+   Under Review, 2026 \n
 
 
-=== Recommender Systems
+=== Recommendation Systems
 - [https://dl.acm.org/doi/abs/10.1145/3705328.3748123 *Enhancing Embedding Representation Stability in Recommendation Systems with Semantic ID*] \[[https://arxiv.org/pdf/2504.02137 PDF]\] \n
    ACM Conference on Recommender Systems (RecSys), 2025 \n
 
