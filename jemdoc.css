@@ -426,28 +426,6 @@ p.tagline {
     color: #666;
 }
 
-.tag {
-    display: inline-block;
-    padding: 1px 6px;
-    margin-right: 0.5em;
-    border-radius: 3px;
-    font-size: 80%;
-    font-weight: bold;
-    vertical-align: 1px;
-}
-
-.tag-ws {
-    background: #eef3fb;
-    color: #2f5d99;
-    border: 1px solid #c8d7eb;
-}
-
-.tag-pre {
-    background: #fff5e6;
-    color: #a05a00;
-    border: 1px solid #f0d9b3;
-}
-
 @media (prefers-color-scheme: dark) {
     body {
         background: #111;
@@ -476,16 +454,6 @@ p.tagline {
     }
     s {
         color: #888;
-    }
-    .tag-ws {
-        background: #1a2b40;
-        color: #9ec1ff;
-        border-color: #2a4670;
-    }
-    .tag-pre {
-        background: #3a2a10;
-        color: #ffc88a;
-        border-color: #6a4a20;
     }
     p.tagline {
         color: #aaa;

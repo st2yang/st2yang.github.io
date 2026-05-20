@@ -4,8 +4,7 @@ Build script for the personal website.
 
 Runs jemdoc, then applies post-processing for things jemdoc cannot emit:
 HTML5 doctype, lang attribute, <main> landmark, <h1> for the page title,
-nested-<p> unwrap, deprecated-attribute strip, list coalescing, and
-inline-tag expansion.
+nested-<p> unwrap, deprecated-attribute strip, and list coalescing.
 
 Usage: ./build.py
 """
@@ -74,12 +73,6 @@ def post_process(s: str) -> str:
     # Semantic email strikethrough
     s = s.replace('<del>yang5276 [at] umn.edu</del>',
                   '<s>yang5276 [at] umn.edu</s>')
-
-    # Inline tag expansion (these markers are placed inside <li>s so the chip
-    # stays within the entry, unlike {{...}} blocks which jemdoc lifts into a
-    # sibling <p>).
-    s = s.replace('__TAG_WS__', '<span class="tag tag-ws">Workshop</span>')
-    s = s.replace('__TAG_PRE__', '<span class="tag tag-pre">Under review</span>')
 
     # Coalesce adjacent <ul>...</ul><ul>...</ul> into a single list. jemdoc
     # opens a new <ul> after each blank line between bullets, so each
