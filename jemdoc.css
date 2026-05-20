@@ -43,13 +43,11 @@ body {
 	padding-top: 0.8em;
 	padding-left: 2.0em;
 	padding-right: 2.0em;
-    border: none;
+    border-width: 5px;
+    border-style: ridge;
     background: white;
     text-align: left;
     vertical-align: top;
-    max-width: 60rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #layout-menu a {
@@ -433,6 +431,7 @@ p.tagline {
     }
     #layout-content {
         background: #111;
+        border-color: #333;
     }
     h1, h2, h3, h4 {
         color: #9ec1ff;
