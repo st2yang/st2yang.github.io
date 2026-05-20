@@ -1,5 +1,9 @@
 /* Default css file for jemdoc. */
 
+:root {
+    color-scheme: light dark;
+}
+
 table#tlayout {
     border: none;
     border-collapse: separate;
@@ -8,7 +12,8 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Georgia, serif;
+	color: #222;
+	font-family: 'Lato', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 	padding-bottom: 2.0em;
 	padding-top: 2.0em;
 	padding-left: 5.0em;
@@ -38,12 +43,13 @@ body {
 	padding-top: 0.8em;
 	padding-left: 2.0em;
 	padding-right: 2.0em;
-    /*border: thin;*/
-    border-width:5px;  
-    border-style:ridge;
+    border: none;
     background: white;
     text-align: left;
     vertical-align: top;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #layout-menu a {
@@ -302,7 +308,7 @@ span.comment, span.comment > *, span.string, span.string > * {
 }
 
 @media print {
-	#layout-menu { display: none; }
+    body { padding: 0.5em 1em; }
 }
 
 #fwtitle {
@@ -340,12 +346,12 @@ img.eqwl {
 	margin: 0;
 }
 
-table {
+table:not(.imgtable) {
     border: 2px solid black;
     border-collapse: collapse;
 }
 
-td {
+table:not(.imgtable) td {
     padding: 2px;
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -369,4 +375,125 @@ img {
 table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
+}
+
+table.imgtable h1 {
+    border-bottom: none;
+    margin-top: 0;
+    margin-bottom: 0.1em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+table.imgtable h1 + p {
+    margin-top: 0;
+    margin-bottom: 0.6em;
+    color: #555;
+    font-size: 105%;
+}
+
+/* Mobile: reduce side padding and stack the header table */
+@media (max-width: 700px) {
+    body {
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 1em;
+    }
+    table.imgtable, table.imgtable tr, table.imgtable td {
+        display: block;
+        width: auto;
+    }
+    table.imgtable td img {
+        margin-bottom: 0.8em;
+    }
+}
+
+h4.subsection {
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    color: #527bbd;
+    font-size: 100%;
+    border-bottom: none;
+}
+
+p.tagline {
+    margin-top: 0.4em;
+    font-style: italic;
+    color: #444;
+}
+
+.muted {
+    color: #666;
+}
+
+.tag {
+    display: inline-block;
+    padding: 1px 6px;
+    margin-right: 0.5em;
+    border-radius: 3px;
+    font-size: 80%;
+    font-weight: bold;
+    vertical-align: 1px;
+}
+
+.tag-ws {
+    background: #eef3fb;
+    color: #2f5d99;
+    border: 1px solid #c8d7eb;
+}
+
+.tag-pre {
+    background: #fff5e6;
+    color: #a05a00;
+    border: 1px solid #f0d9b3;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #111;
+        color: #ddd;
+    }
+    #layout-content {
+        background: #111;
+    }
+    h1, h2, h3, h4 {
+        color: #9ec1ff;
+    }
+    a, a > tt {
+        color: #7aa6ff;
+    }
+    h1, h2, h3 {
+        border-bottom-color: #333;
+    }
+    div#toptitle {
+        border-bottom-color: #555;
+    }
+    tt {
+        background: #1f1f00;
+    }
+    dd {
+        color: #ddd;
+    }
+    s {
+        color: #888;
+    }
+    .tag-ws {
+        background: #1a2b40;
+        color: #9ec1ff;
+        border-color: #2a4670;
+    }
+    .tag-pre {
+        background: #3a2a10;
+        color: #ffc88a;
+        border-color: #6a4a20;
+    }
+    p.tagline {
+        color: #aaa;
+    }
+    .muted {
+        color: #9a9a9a;
+    }
+    table.imgtable h1 + p {
+        color: #aaa;
+    }
 }

@@ -1,113 +1,126 @@
 # jemdoc: {index.html}
 # jemdoc: nofooter
 # jemdoc: title{Yang Yang}
-# analytics {UA-109554412-2}
 
 ~~~
-{}{img_left}{assets/images/portrait.png}{Photo}{175px}{200px}{}
+{}{img_left}{assets/images/portrait.jpg}{Photo of Yang Yang}{175px}{200px}{}
 {{
     <h3>Yang Yang</h3>
 }}
 
 {{
+<p>AI Research Scientist, Meta</p>
+}}
+
+{{
 <p>
-    <a href="https://scholar.google.com/citations?user=xGtHuNMAAAAJ&hl=en"> <img src="assets/icon/google-scholar.png" height="32px"></a>
-    <a href="https://github.com/st2yang"> <img src="assets/icon/github.png" height="32px"></a>
-    <a href="https://www.linkedin.com/in/yang-yang-92b882133/"> <img src="assets/icon/linkedin.png" height="32px"></a>
+    <a href="https://scholar.google.com/citations?user=xGtHuNMAAAAJ&amp;hl=en" aria-label="Google Scholar"> <img src="assets/icon/google-scholar.png" height="32px" alt="Google Scholar"></a>
+    <a href="https://github.com/st2yang" aria-label="GitHub"> <img src="assets/icon/github.png" height="32px" alt="GitHub"></a>
+    <a href="https://www.linkedin.com/in/st2yang/" aria-label="LinkedIn"> <img src="assets/icon/linkedin.png" height="32px" alt="LinkedIn"></a>
 </p>
 }}
 
-{{<a href="mailto:st2yang@gmail.com">st2yang [at] gmail.com</a><br />
+{{<b>Email:</b><br />
+<a href="mailto:st2yang@gmail.com">st2yang [at] gmail.com</a> (preferred)<br />
 <a href="mailto:yzyang@meta.com">yzyang [at] meta.com</a><br />
-<del>yang5276 [at] umn.edu</del>}}
-
-{{</center>}}
+<s class="muted">yang5276 [at] umn.edu</s>}}
 ~~~
 
 == About me
-I am a Research Scientist at Meta. I received my Ph.D. in Computer Science from the University of Minnesota, with a research focus on robotics and machine learning. My current interests include LLMs, AI agents, especially their applications in large-scale recommendation systems.
+I am a Staff AI Research Scientist at Meta, working on AI agents and large-scale recommendation systems. Recent work: /AI agents for ML engineering/: [https://openreview.net/forum?id=nWaZTH1JMx STARK] \[ICLR '26\], [https://arxiv.org/abs/2511.03985 ArchPilot]; /LLMs for Recommendation Systems (LLM4Rec)/: [https://drive.google.com/file/d/1afGChOrBmgY7AuF0F_ACI0UXtGNrUI_I/ Unity] \[KDD '26\], [https://arxiv.org/abs/2504.02137 Semantic ID] \[RecSys '25\], [https://arxiv.org/abs/2305.15333 User-Centric Ranking] \[KDD '23\].
 
-== Publications {[https://scholar.google.com/citations?user=xGtHuNMAAAAJ&hl=en Google Scholar]}
+My Ph.D. at the University of Minnesota focused on language-guided robotic grasping and embodied perception ([https://icra2022.org/program/awards ICRA '22 Outstanding Student Paper Award], [https://ieeexplore.ieee.org/document/10398505 T-RO '24]).
 
-=== LLMs & AI Agents
+Happy to chat about AI agents, LLM4Rec, and embodied AI.
+
+== Professional Experience
+- *Meta*, Bellevue, WA | Since March 2022 \n
+   Staff AI Research Scientist (Tech Lead), AI agents and LLMs for Recommendation.
+- *[https://www.merl.com/research/computer-vision Mitsubishi Electric Research Laboratories (MERL)]*, Cambridge, MA | Summer 2020 \n
+   Research Intern, Computer Vision.
+- *Google*, Mountain View, CA | Summer 2018 \n
+   Software Engineering Intern, Visual-Inertial Systems.
+
+== Publications
+See [https://scholar.google.com/citations?user=xGtHuNMAAAAJ&hl=en Google Scholar] for the complete list.
+
+=== LLMs, Agents & Generative Models
 - [https://openreview.net/forum?id=nWaZTH1JMx *STARK: Strategic Team of Agents for Refining Kernels*] \[[https://arxiv.org/pdf/2510.16996 PDF]\] \n
+   Juncheng Dong, *Yang Yang*, Tao Liu, Yang Wang, Feng Qi, Vahid Tarokh, Kaushik Rangadurai, Shuang Yang \n
    International Conference on Learning Representations (ICLR), 2026 \n
 
-- [https://arxiv.org/pdf/2511.03985 *ArchPilot: A Proxy-Guided Multi-Agent Approach for Machine Learning Engineering*] \[[https://arxiv.org/pdf/2511.03985 PDF]\] \n
-   Under Review, 2026 \n
+- [https://arxiv.org/abs/2511.03985 *ArchPilot: A Proxy-Guided Multi-Agent Approach for Machine Learning Engineering*] \[[https://arxiv.org/pdf/2511.03985 PDF]\] \n
+   Zhuowen Yuan, Tao Liu, *Yang Yang*, Yang Wang, Feng Qi, Kaushik Rangadurai, Bo Li, Shuang Yang \n
+   __TAG_WS__ [https://iclr26-mal-gai.github.io/ MAL-GAI], ICLR 2026 \n
+
+- [https://openreview.net/forum?id=GPZK6gSCKV *Tokenize, Diffuse, Decode: A Generative Approach to Neighborhood Discovery on Graphs*] \[[https://openreview.net/pdf?id=GPZK6gSCKV PDF]\] \n
+   Zhuowen Yuan, Tao Liu, Kaushik Rangadurai, *Yang Yang*, Minhui Huang, Yiping Han, Bo Li, Shuang Yang \n
+   __TAG_WS__ [https://delta-workshop.github.io/DeLTa2026/ DeLTa], ICLR 2026 \n
 
 - [https://openreview.net/pdf?id=ZVN1DCVOIg *GraphQ-LM: Scalable Graph Representation for Large Language Models via Residual Vector Quantization*] \[[https://openreview.net/pdf?id=ZVN1DCVOIg PDF]\] \n
-   Under Review, 2026 \n
+   Jiawei Zhang, *Yang Yang*, Kaushik Rangadurai, Tao Liu, Minhui Huang, Yiping Han, Bo Li, Shuang Yang \n
+   __TAG_PRE__ NeurIPS 2026 \n
 
 
-=== Recommendation Systems
+=== Recommender Systems
+- [https://drive.google.com/file/d/1afGChOrBmgY7AuF0F_ACI0UXtGNrUI_I/ *Unity: Fully Self-Supervised Pretraining with Transformers for Recommendation*] \[[https://drive.google.com/file/d/1afGChOrBmgY7AuF0F_ACI0UXtGNrUI_I/ PDF]\] \n
+   Shuang Yang, *Yang Yang*, Tao Liu, Feng Qi, Kaushik Rangadurai, Luke Simon, Sandeep Pandey \n
+   ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026 \n
+
 - [https://dl.acm.org/doi/abs/10.1145/3705328.3748123 *Enhancing Embedding Representation Stability in Recommendation Systems with Semantic ID*] \[[https://arxiv.org/pdf/2504.02137 PDF]\] \n
+   Carolina Zheng, Minhui Huang, Dmitrii Pedchenko, Kaushik Rangadurai, Siyu Wang, Gaby Nahum, Jie Lei, *Yang Yang*, et al. \n
    ACM Conference on Recommender Systems (RecSys), 2025 \n
 
 - [https://research.facebook.com/publications/breaking-the-curse-of-quality-saturation-with-user-centric-ranking/ *Breaking the Curse of Quality Saturation with User-Centric Ranking*] \[[https://arxiv.org/pdf/2305.15333 PDF]\] \n
+   Zhuokai Zhao, *Yang Yang*, Wenyu Wang, Chihuang Liu, Yu Shi, Wenjie Hu, Haotian Zhang, Shuang Yang \n
    ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2023 \n
 
 
-=== Robotics / Robot Learning
+=== Embodied AI & Robotics
 - [https://ieeexplore.ieee.org/abstract/document/11128679/ *A Parameter-Efficient Tuning Framework for Language-Guided Object Grounding and Robot Grasping*] \[[https://arxiv.org/pdf/2409.19457 PDF]\] \n
+   Houjian Yu, *Yang Yang*, Mingen Li, Alireza Rezazadeh, Yiming Lu, Changhyun Choi \n
    IEEE International Conference on Robotics and Automation (ICRA), 2025 \n
 
-- [https://ieeexplore.ieee.org/document/10398505 *Attribute-Based Robotic Grasping with Data-Efficient Adaptation*] \[[https://ieeexplore.ieee.org/document/10398505 PDF]\] \[[https://sites.google.com/umn.edu/attributes-grasping Website]\] \[[https://youtu.be/f0mfaCy64k0 Video]\] \n
+- [https://ieeexplore.ieee.org/document/10398505 *Attribute-Based Robotic Grasping with Data-Efficient Adaptation*] \[[https://arxiv.org/pdf/2501.02149 PDF]\] \[[https://sites.google.com/umn.edu/attributes-grasping Website]\] \[[https://youtu.be/f0mfaCy64k0 Video]\] \n
+   *Yang Yang*, Houjian Yu, Xibai Lou, Yuanhao Liu, Changhyun Choi \n
    IEEE Transactions on Robotics (T-RO), 2024 \n
 
 - [https://ieeexplore.ieee.org/document/10342412 *Adversarial Object Rearrangement in Constrained Environments with Heterogeneous Graph Neural Networks*] \[[https://arxiv.org/pdf/2309.15378 PDF]\] \[[https://sites.google.com/umn.edu/versatile-rearrangement Website]\] \[[https://youtu.be/qLXZoZKbV9Q Video]\] \n
+   Xibai Lou, Houjian Yu, Ross Worobel, *Yang Yang*, Paul Rosen, Changhyun Choi \n
    IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023 \n
 
-- [https://ieeexplore.ieee.org/document/10342009 *IOSG: Image-Driven Object Searching and Grasping*] \[[https://arxiv.org/pdf/2308.05821 PDF]\] \[[https://sites.google.com/umn.edu/iosg Website]\] \[[https://drive.google.com/file/d/120_t_8C8C7iqfD8iEFrQVfHJ5y4qwfui/view?t=2 Video]\] \n
+- [https://ieeexplore.ieee.org/document/10342009 *IOSG: Image-Driven Object Searching and Grasping*] \[[https://arxiv.org/pdf/2308.05821 PDF]\] \[[https://sites.google.com/umn.edu/iosg Website]\] \n
+   Houjian Yu, Xibai Lou, *Yang Yang*, Changhyun Choi \n
    IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023 \n
 
-- [https://ieeexplore.ieee.org/document/9812360 *Interactive Robotic Grasping with Attribute-Guided Disambiguation*] \[[https://arxiv.org/pdf/2203.08037 PDF]\] \[[https://sites.google.com/umn.edu/attr-disam Website]\] \[[https://youtu.be/6WKUItkGuUc Video]\] \[[https://drive.google.com/file/d/1bJqZZFPxcMVvCzP4mm7SPL9-QiT3SBXl Poster]\] \[[https://icra2022.org/program/awards Outstanding Student Paper]\] \n
+- [https://ieeexplore.ieee.org/document/9812360 *Interactive Robotic Grasping with Attribute-Guided Disambiguation*] \[[https://arxiv.org/pdf/2203.08037 PDF]\] \[[https://sites.google.com/umn.edu/attr-disam Website]\] \[[https://youtu.be/6WKUItkGuUc Video]\] \n
+   *Yang Yang*, Xibai Lou, Changhyun Choi \n
+   IEEE International Conference on Robotics and Automation (ICRA), 2022 *(Outstanding Student Paper Award)* \n
+
+- [https://ieeexplore.ieee.org/document/9811601 *Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter*] \[[https://arxiv.org/pdf/2203.00875 PDF]\] \[[https://sites.google.com/umn.edu/graph-grasping Website]\] \n
+   Xibai Lou, *Yang Yang*, Changhyun Choi \n
    IEEE International Conference on Robotics and Automation (ICRA), 2022 \n
 
-- [https://ieeexplore.ieee.org/document/9811601 *Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter*] \[[https://arxiv.org/pdf/2203.00875 PDF]\] \[[https://sites.google.com/umn.edu/graph-grasping Website]\] \[[https://youtu.be/YuPzc6Ktg8s Video]\] \n
-   IEEE International Conference on Robotics and Automation (ICRA), 2022 \n
-
-- [https://ieeexplore.ieee.org/document/9561139 *Attribute-Based Robotic Grasping with One-Grasp Adaptation*] \[[https://arxiv.org/pdf/2104.02271 PDF]\] \[[https://sites.google.com/umn.edu/attributes-grasping Website]\] \[[https://youtu.be/3udRLj_0Leo Video]\] \n
-   IEEE International Conference on Robotics and Automation (ICRA), 2021 \n
-
-- [https://ieeexplore.ieee.org/document/9561473 *Collision-Aware Target-Driven Object Grasping in Constrained Environments*] \[[https://arxiv.org/pdf/2104.00776 PDF]\] \[[https://youtu.be/QLTM6UkZ-Dw Video]\] \n
-   IEEE International Conference on Robotics and Automation (ICRA), 2021 \n
-
-- [https://ieeexplore.ieee.org/document/9561737 *Learning Visual Affordances with Target-Orientated Deep Q-Network to Grasp Objects by Harnessing Environmental Fixtures*] \[[https://arxiv.org/pdf/1910.03781 PDF]\] \[[https://sites.google.com/umn.edu/ki-dqn/ Website]\] \[[https://youtu.be/XzIyhoOr9zs Video]\] \n
-   IEEE International Conference on Robotics and Automation (ICRA), 2021 \n
-
-- [https://ieeexplore.ieee.org/document/8976257 *A Deep Learning Approach to Grasping the Invisible*] \[[https://arxiv.org/pdf/1909.04840 PDF]\] \[[https://sites.google.com/umn.edu/grasping-invisible Website]\] \[[https://github.com/choicelab/grasping-invisible Code]\] \[[https://youtu.be/_jssCcP_oKg Video]\] \n
+- [https://ieeexplore.ieee.org/document/8976257 *A Deep Learning Approach to Grasping the Invisible*] \[[https://arxiv.org/pdf/1909.04840 PDF]\] \[[https://sites.google.com/umn.edu/grasping-invisible Website]\] \[[https://github.com/choicelab/grasping-invisible Code]\] \n
+   *Yang Yang*, Hengyue Liang, Changhyun Choi \n
    IEEE Robotics and Automation Letters (RA-L), 2020 \n
 
-- [https://ieeexplore.ieee.org/document/9197413 *Learning to Generate 6-DoF Grasp Poses with Reachability Awareness*] \[[https://arxiv.org/pdf/1910.06404 PDF]\] \[[https://sites.google.com/umn.edu/reachability-aware-grasping Website]\] \[[https://youtu.be/E4Az6OacHt4 Video]\] \n
+- [https://ieeexplore.ieee.org/document/9561139 *Attribute-Based Robotic Grasping with One-Grasp Adaptation*] \[[https://arxiv.org/pdf/2104.02271 PDF]\] \[[https://sites.google.com/umn.edu/attributes-grasping Website]\] \n
+   *Yang Yang*, Yuanhao Liu, Hengyue Liang, Xibai Lou, Changhyun Choi \n
+   IEEE International Conference on Robotics and Automation (ICRA), 2021 \n
+
+- [https://ieeexplore.ieee.org/document/9561473 *Collision-Aware Target-Driven Object Grasping in Constrained Environments*] \[[https://arxiv.org/pdf/2104.00776 PDF]\] \n
+   Xibai Lou, *Yang Yang*, Changhyun Choi \n
+   IEEE International Conference on Robotics and Automation (ICRA), 2021 \n
+
+- [https://ieeexplore.ieee.org/document/9561737 *Learning Visual Affordances with Target-Orientated Deep Q-Network*] \[[https://arxiv.org/pdf/1910.03781 PDF]\] \[[https://sites.google.com/umn.edu/ki-dqn/ Website]\] \n
+   Hengyue Liang, Xibai Lou, *Yang Yang*, Changhyun Choi \n
+   IEEE International Conference on Robotics and Automation (ICRA), 2021 \n
+
+- [https://ieeexplore.ieee.org/document/9197413 *Learning to Generate 6-DoF Grasp Poses with Reachability Awareness*] \[[https://arxiv.org/pdf/1910.06404 PDF]\] \[[https://sites.google.com/umn.edu/reachability-aware-grasping Website]\] \n
+   Xibai Lou, *Yang Yang*, Changhyun Choi \n
    IEEE International Conference on Robotics and Automation (ICRA), 2020 \n
 
-- [https://link.springer.com/chapter/10.1007/978-3-030-95459-8_29 *Attitude Tracking from a Camera and an Accelerometer on Gyro-less Devices*] \[[http://mars.cs.umn.edu/papers/ISRR19_0045_FI PDF]\] \n
+- [https://link.springer.com/chapter/10.1007/978-3-030-95459-8_29 *Attitude Tracking from a Camera and an Accelerometer on Gyro-less Devices*] \n
+   Tien Do, Leo Neira, *Yang Yang*, Stergios I. Roumeliotis \n
    International Symposium on Robotics Research (ISRR), 2019 \n
-
-== Professional Experience
-- Meta, USA | March 2022 - present \n
-   Research Scientist (Machine Learning)
-- [https://www.merl.com/research/computer-vision Mitsubishi Electric Research Laboratories (MERL)], USA | 2020 (May - Aug.) \n
-   Research Intern (Computer Vision)
-- Google, USA | 2018 (Jul. - Aug.) \n
-   Visual-Inertial System Engineer
-
-== Professional Services
-: {Conference Reviewer:}
-    AAAI Conference on Artificial Intelligence (AAAI) \n
-    IEEE International Conference on Robotics and Automation (ICRA) \n
-    IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) \n
-: {Journal Reviewer:}
-    IEEE Robotics and Automation Letters (RA-L) \n
-    IEEE Transactions on Automation Science and Engineering (T-ASE) \n
-
-== Honors & Awards
-- [https://icra2022.org/program/awards Outstanding Student Paper Award], ICRA | 2022
-- [https://rc.umn.edu/past-awards UMII-MnDRIVE Graduate Fellowship], UMN | 2021
-- Departmental Fellowship, UMN | 2016
-- National Scholarship (three consecutive times), Ministry of Education of P.R. China | 2012 - 2014
-
-== Teaching
-- Teaching Assistant, [https://www-users.cs.umn.edu/~hspark/csci5561_F2020/csci5561.html Computer Vision], UMN | Fall 2020
-- Teaching Assistant, Program Design and Development (C\+\+), UMN | Spring 2018
