@@ -27,7 +27,7 @@
 ~~~
 
 == About me
-I am a Staff AI Research Scientist at Meta, working on AI agents and large-scale recommendation systems. Recent work: /AI agents for ML engineering/: [https://openreview.net/forum?id=nWaZTH1JMx STARK] \[ICLR '26\], [https://arxiv.org/abs/2511.03985 ArchPilot]; /LLMs for Recommendation Systems (LLM4Rec)/: [https://drive.google.com/file/d/1afGChOrBmgY7AuF0F_ACI0UXtGNrUI_I/ Unity] \[KDD '26\], [https://arxiv.org/abs/2504.02137 Semantic ID] \[RecSys '25\], [https://arxiv.org/abs/2305.15333 User-Centric Ranking] \[KDD '23\].
+I am a Staff AI Research Scientist at Meta, working on AI agents and large-scale recommendation systems. Recent work: /AI agents for ML engineering/: [https://openreview.net/forum?id=nWaZTH1JMx STARK] \[ICLR '26\], [https://arxiv.org/abs/2511.03985 ArchPilot]; /LLMs for Recommendation Systems (LLM4Rec)/: Unity \[KDD '26\], [https://arxiv.org/abs/2504.02137 Semantic ID] \[RecSys '25\], [https://arxiv.org/abs/2305.15333 User-Centric Ranking] \[KDD '23\].
 
 My Ph.D. at the University of Minnesota focused on language-guided robotic grasping and embodied perception ([https://icra2022.org/program/awards ICRA '22 Outstanding Student Paper Award], [https://ieeexplore.ieee.org/document/10398505 T-RO '24]).
 
@@ -63,7 +63,7 @@ See [https://scholar.google.com/citations?user=xGtHuNMAAAAJ&hl=en Google Scholar
 
 
 === Recommender Systems
-- [https://drive.google.com/file/d/1afGChOrBmgY7AuF0F_ACI0UXtGNrUI_I/ *Unity: Fully Self-Supervised Pretraining with Transformers for Recommendation*] \[[https://drive.google.com/file/d/1afGChOrBmgY7AuF0F_ACI0UXtGNrUI_I/ PDF]\] \n
+- *Unity: Fully Self-Supervised Pretraining with Transformers for Recommendation* \n
    Shuang Yang, *Yang Yang*, Tao Liu, Feng Qi, Kaushik Rangadurai, Luke Simon, Sandeep Pandey \n
    ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026 \n
 
