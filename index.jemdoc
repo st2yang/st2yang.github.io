@@ -27,7 +27,7 @@
 ~~~
 
 == About me
-I am a Staff AI Research Scientist at Meta, working on AI agents and large-scale recommendation systems. Recent work: /AI agents for ML engineering/: [https://openreview.net/forum?id=nWaZTH1JMx STARK] \[ICLR '26\], [https://arxiv.org/abs/2511.03985 ArchPilot]; /LLMs for Recommendation Systems (LLM4Rec)/: Unity \[KDD '26\], [https://arxiv.org/abs/2504.02137 Semantic ID] \[RecSys '25\], [https://arxiv.org/abs/2305.15333 User-Centric Ranking] \[KDD '23\].
+I am a Staff AI Research Scientist at Meta, working on AI agents and large-scale recommendation systems. Recent work: /AI agents for ML engineering/: [https://openreview.net/forum?id=nWaZTH1JMx STARK] \[ICLR '26\], [https://arxiv.org/abs/2511.03985 ArchPilot]; /LLMs for Recommendation Systems (LLM4Rec)/: [https://dl.acm.org/doi/10.1145/3770855.3818505 Unity] \[KDD '26\], [https://arxiv.org/abs/2504.02137 Semantic ID] \[RecSys '25\], [https://arxiv.org/abs/2305.15333 User-Centric Ranking] \[KDD '23\].
 
 My Ph.D. at the University of Minnesota focused on language-guided robotic grasping and embodied perception ([https://icra2022.org/program/awards ICRA '22 Outstanding Student Paper Award], [https://ieeexplore.ieee.org/document/10398505 T-RO '24]).
 
@@ -63,7 +63,7 @@ See [https://scholar.google.com/citations?user=xGtHuNMAAAAJ&hl=en Google Scholar
 
 
 === Recommender Systems
-- *Unity: Fully Self-Supervised Pretraining with Transformers for Recommendation* \n
+- [https://dl.acm.org/doi/10.1145/3770855.3818505 *Unity: Fully Self-Supervised Pretraining with Transformers for Recommendation*] \n
    Shuang Yang, *Yang Yang*, Tao Liu, Feng Qi, Kaushik Rangadurai, Luke Simon, Sandeep Pandey \n
    ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026 \n
 
@@ -81,11 +81,11 @@ See [https://scholar.google.com/citations?user=xGtHuNMAAAAJ&hl=en Google Scholar
    Houjian Yu, *Yang Yang*, Mingen Li, Alireza Rezazadeh, Yiming Lu, Changhyun Choi \n
    IEEE International Conference on Robotics and Automation (ICRA), 2025 \n
 
-- [https://ieeexplore.ieee.org/document/10398505 *Attribute-Based Robotic Grasping with Data-Efficient Adaptation*] \[[https://arxiv.org/pdf/2501.02149 PDF]\] \[[https://sites.google.com/umn.edu/attributes-grasping Website]\] \[[https://youtu.be/f0mfaCy64k0 Video]\] \n
+- [https://ieeexplore.ieee.org/document/10398505 *Attribute-Based Robotic Grasping with Data-Efficient Adaptation*] \[[https://arxiv.org/pdf/2501.02149 PDF]\] \n
    *Yang Yang*, Houjian Yu, Xibai Lou, Yuanhao Liu, Changhyun Choi \n
    IEEE Transactions on Robotics (T-RO), 2024 \n
 
-- [https://ieeexplore.ieee.org/document/10342412 *Adversarial Object Rearrangement in Constrained Environments with Heterogeneous Graph Neural Networks*] \[[https://arxiv.org/pdf/2309.15378 PDF]\] \[[https://sites.google.com/umn.edu/versatile-rearrangement Website]\] \[[https://youtu.be/qLXZoZKbV9Q Video]\] \n
+- [https://ieeexplore.ieee.org/document/10342412 *Adversarial Object Rearrangement in Constrained Environments with Heterogeneous Graph Neural Networks*] \[[https://arxiv.org/pdf/2309.15378 PDF]\] \[[https://youtu.be/qLXZoZKbV9Q Video]\] \n
    Xibai Lou, Houjian Yu, Ross Worobel, *Yang Yang*, Paul Rosen, Changhyun Choi \n
    IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023 \n
 
@@ -93,19 +93,19 @@ See [https://scholar.google.com/citations?user=xGtHuNMAAAAJ&hl=en Google Scholar
    Houjian Yu, Xibai Lou, *Yang Yang*, Changhyun Choi \n
    IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2023 \n
 
-- [https://ieeexplore.ieee.org/document/9812360 *Interactive Robotic Grasping with Attribute-Guided Disambiguation*] \[[https://arxiv.org/pdf/2203.08037 PDF]\] \[[https://sites.google.com/umn.edu/attr-disam Website]\] \[[https://youtu.be/6WKUItkGuUc Video]\] \n
+- [https://ieeexplore.ieee.org/document/9812360 *Interactive Robotic Grasping with Attribute-Guided Disambiguation*] \[[https://arxiv.org/pdf/2203.08037 PDF]\] \n
    *Yang Yang*, Xibai Lou, Changhyun Choi \n
    IEEE International Conference on Robotics and Automation (ICRA), 2022 *(Outstanding Student Paper Award)* \n
 
-- [https://ieeexplore.ieee.org/document/9811601 *Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter*] \[[https://arxiv.org/pdf/2203.00875 PDF]\] \[[https://sites.google.com/umn.edu/graph-grasping Website]\] \n
+- [https://ieeexplore.ieee.org/document/9811601 *Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter*] \[[https://arxiv.org/pdf/2203.00875 PDF]\] \n
    Xibai Lou, *Yang Yang*, Changhyun Choi \n
    IEEE International Conference on Robotics and Automation (ICRA), 2022 \n
 
-- [https://ieeexplore.ieee.org/document/8976257 *A Deep Learning Approach to Grasping the Invisible*] \[[https://arxiv.org/pdf/1909.04840 PDF]\] \[[https://sites.google.com/umn.edu/grasping-invisible Website]\] \[[https://github.com/choicelab/grasping-invisible Code]\] \n
+- [https://ieeexplore.ieee.org/document/8976257 *A Deep Learning Approach to Grasping the Invisible*] \[[https://arxiv.org/pdf/1909.04840 PDF]\] \[[https://github.com/choicelab/grasping-invisible Code]\] \n
    *Yang Yang*, Hengyue Liang, Changhyun Choi \n
    IEEE Robotics and Automation Letters (RA-L), 2020 \n
 
-- [https://ieeexplore.ieee.org/document/9561139 *Attribute-Based Robotic Grasping with One-Grasp Adaptation*] \[[https://arxiv.org/pdf/2104.02271 PDF]\] \[[https://sites.google.com/umn.edu/attributes-grasping Website]\] \n
+- [https://ieeexplore.ieee.org/document/9561139 *Attribute-Based Robotic Grasping with One-Grasp Adaptation*] \[[https://arxiv.org/pdf/2104.02271 PDF]\] \n
    *Yang Yang*, Yuanhao Liu, Hengyue Liang, Xibai Lou, Changhyun Choi \n
    IEEE International Conference on Robotics and Automation (ICRA), 2021 \n
 
@@ -117,7 +117,7 @@ See [https://scholar.google.com/citations?user=xGtHuNMAAAAJ&hl=en Google Scholar
    Hengyue Liang, Xibai Lou, *Yang Yang*, Changhyun Choi \n
    IEEE International Conference on Robotics and Automation (ICRA), 2021 \n
 
-- [https://ieeexplore.ieee.org/document/9197413 *Learning to Generate 6-DoF Grasp Poses with Reachability Awareness*] \[[https://arxiv.org/pdf/1910.06404 PDF]\] \[[https://sites.google.com/umn.edu/reachability-aware-grasping Website]\] \n
+- [https://ieeexplore.ieee.org/document/9197413 *Learning to Generate 6-DoF Grasp Poses with Reachability Awareness*] \[[https://arxiv.org/pdf/1910.06404 PDF]\] \n
    Xibai Lou, *Yang Yang*, Changhyun Choi \n
    IEEE International Conference on Robotics and Automation (ICRA), 2020 \n
 
