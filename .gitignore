@@ -1,4 +1,24 @@
 .DS_Store
-.claude/
+._*
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*~
+
 __pycache__/
 *.pyc
+node_modules/
+.cache/
+.lighthouseci/
+
+Screenshot*.png
+Screen Shot*.png
+screenshots/
+*.pdf
+*.zip
+shots/
+*.report.html
+*.report.json

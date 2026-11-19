@@ -1,0 +1,374 @@
+@font-face {
+  font-family: "Newsreader";
+  src: url("assets/fonts/newsreader-latin.woff2") format("woff2");
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Newsreader";
+  src: url("assets/fonts/newsreader-italic-latin.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light dark;
+  --bg: #fbfaf8;
+  --ink: #1b1b1a;
+  --muted: #696762;
+  --rule: #e4e0d9;
+  --accent: #23427a;
+  --serif: "Newsreader", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #131312;
+    --ink: #ebe9e4;
+    --muted: #a3a09a;
+    --rule: #2c2b28;
+    --accent: #a9c0ec;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-bottom: 1rem;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 1rem/1.6 var(--sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  max-width: 49rem;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 5rem;
+}
+
+p {
+  margin: 0;
+  text-wrap: pretty;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+@supports not (text-wrap: pretty) {
+  .keep {
+    white-space: nowrap;
+  }
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 9.375rem minmax(0, 1fr);
+  grid-template-rows: 1fr auto auto auto 1fr;
+  grid-template-areas:
+    "photo ."
+    "photo name"
+    "photo role"
+    "photo links"
+    "photo .";
+  column-gap: 1.5rem;
+}
+
+.portrait {
+  grid-area: photo;
+}
+
+.portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 0.08);
+}
+
+h1 {
+  grid-area: name;
+  margin: 0;
+  font: 600 2.875rem/1.05 var(--serif);
+  letter-spacing: -0.015em;
+}
+
+.role {
+  grid-area: role;
+  margin-top: 0.45rem;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.links {
+  grid-area: links;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1.5rem;
+  margin: 0.85rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9375rem;
+}
+
+.bio {
+  max-width: 42rem;
+  margin-top: 2.25rem;
+  font: 400 1.25rem/1.55 var(--serif);
+}
+
+.bio p + p {
+  margin-top: 0.85rem;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 4rem 0 1.5rem;
+  color: var(--muted);
+  font: 600 0.75rem/1 var(--sans);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+h2::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--rule);
+}
+
+h3 {
+  margin: 2.5rem 0 1rem;
+  font: italic 400 1.1875rem/1.3 var(--serif);
+  text-wrap: balance;
+}
+
+.rows {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rows li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 1.5rem;
+  align-items: baseline;
+}
+
+.rows li + li {
+  margin-top: 1rem;
+}
+
+.what {
+  font: 600 1.125rem/1.4 var(--serif);
+  text-wrap: balance;
+}
+
+.date {
+  color: var(--muted);
+  font-size: 0.9375rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.org {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.pubs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pubs li + li {
+  margin-top: 1.5rem;
+}
+
+.kicker {
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.honor {
+  color: var(--ink);
+}
+
+.kicker a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--muted);
+  text-underline-offset: 0.2em;
+  white-space: nowrap;
+}
+
+.pub-title {
+  margin-top: 0.2rem;
+  font: 600 1.125rem/1.4 var(--serif);
+  text-wrap: balance;
+}
+
+.pub-title a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 0.22em;
+}
+
+.pub-title a:hover,
+.kicker a:hover,
+.more a:hover {
+  color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
+.pub-note {
+  margin-top: 0.25rem;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.more {
+  margin: -0.5rem 0 1.75rem;
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+
+.more + h3 {
+  margin-top: 0;
+}
+
+.more a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--muted);
+  text-underline-offset: 0.2em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .portrait img {
+    filter: brightness(0.9);
+  }
+}
+
+@media (max-width: 40rem) {
+  main {
+    padding: 2.75rem 1.25rem 3.5rem;
+  }
+
+  .intro {
+    grid-template-columns: clamp(5rem, 100vw - 16.5rem, 6.5rem) minmax(0, 1fr);
+    grid-template-rows: 1fr auto auto 1fr auto;
+    grid-template-areas:
+      "photo ."
+      "photo name"
+      "photo role"
+      "photo ."
+      "links links";
+    column-gap: 1.25rem;
+  }
+
+  .links {
+    margin-top: 1.25rem;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  .role {
+    font-size: 0.9375rem;
+  }
+
+  .bio {
+    margin-top: 1.5rem;
+    font-size: 1.125rem;
+  }
+
+  h2 {
+    margin-top: 3.25rem;
+  }
+
+  .rows li {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .rows li + li {
+    margin-top: 1.5rem;
+  }
+
+  .rows .date {
+    grid-row: 1;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  .rows .what {
+    grid-row: 2;
+    margin-top: 0.2rem;
+  }
+
+  .rows .org {
+    grid-row: 3;
+  }
+}
+
+@media (max-width: 25rem) {
+  .links li:first-child {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 21.25rem) {
+  .role {
+    font-size: 0.875rem;
+  }
+
+  .kicker {
+    font-size: 0.75rem;
+  }
+}
