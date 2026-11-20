@@ -144,6 +144,11 @@ h1 {
   font-size: 0.9375rem;
 }
 
+.links .email {
+  color: var(--muted);
+  white-space: nowrap;
+}
+
 .bio {
   max-width: 42rem;
   margin-top: 2.25rem;
